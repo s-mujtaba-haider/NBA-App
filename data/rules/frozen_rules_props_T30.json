@@ -1,0 +1,129 @@
+{
+  "window": "T30",
+  "dispersion": {
+    "PTS": [
+      "nb",
+      6.138202626424879
+    ],
+    "REB": [
+      "nb",
+      9.723279062748718
+    ],
+    "AST": [
+      "nb",
+      11.124033674812464
+    ],
+    "FG3M": [
+      "nb",
+      7.342746443025199
+    ],
+    "STL": [
+      "nb",
+      6.482874475351598
+    ],
+    "BLK": [
+      "nb",
+      5.030283343370913
+    ],
+    "TOV": [
+      "nb",
+      20.85671706445584
+    ],
+    "PRA": [
+      "nb",
+      8.76566154609255
+    ]
+  },
+  "configs_tried": 512,
+  "rules": [
+    {
+      "window": "T30",
+      "market": "player_assists",
+      "strategy": "inj",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.1,
+      "n": 398,
+      "roi": 0.15546335203847708,
+      "ci_lo": 0.048724164922785515
+    },
+    {
+      "window": "T30",
+      "market": "player_blocks",
+      "strategy": "stack",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.0,
+      "n": 5296,
+      "roi": 0.01658204668251965,
+      "ci_lo": -0.009973480251339269
+    },
+    {
+      "window": "T30",
+      "market": "player_points",
+      "strategy": "inj",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.05,
+      "n": 3192,
+      "roi": 0.0398610323737349,
+      "ci_lo": 0.00478404862037813
+    },
+    {
+      "window": "T30",
+      "market": "player_points_rebounds_assists",
+      "strategy": "stack",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.04,
+      "n": 4013,
+      "roi": 0.0422636687314862,
+      "ci_lo": 0.01215502575620521
+    },
+    {
+      "window": "T30",
+      "market": "player_rebounds",
+      "strategy": "stack",
+      "source": NaN,
+      "devig": "multiplicative",
+      "tau": 0.1,
+      "n": 1603,
+      "roi": 0.08586801793667517,
+      "ci_lo": 0.03693351372466993
+    },
+    {
+      "window": "T30",
+      "market": "player_steals",
+      "strategy": "inj",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.02,
+      "n": 6362,
+      "roi": 0.023369683220885926,
+      "ci_lo": -0.00235822833654143
+    },
+    {
+      "window": "T30",
+      "market": "player_threes",
+      "strategy": "stack",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.1,
+      "n": 316,
+      "roi": 0.1989925236402723,
+      "ci_lo": 0.07784223170366401
+    },
+    {
+      "window": "T30",
+      "market": "player_turnovers",
+      "strategy": "price",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.01,
+      "n": 558,
+      "roi": 0.026012492736407485,
+      "ci_lo": -0.05839212852421992
+    }
+  ],
+  "frozen_at": "2026-10-26T11:04:05.899836+00:00"
+}

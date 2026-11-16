@@ -1,0 +1,62 @@
+{
+  "window": "T30",
+  "dispersion": {
+    "player_points_rebounds": 7.63301862212744,
+    "player_points_assists": 7.748039555862899,
+    "player_rebounds_assists": 10.84576862364849
+  },
+  "configs_tried": 288,
+  "rules": [
+    {
+      "market": "player_double_double",
+      "strategy": "price",
+      "source": "consensus",
+      "devig": "power",
+      "tau": 0.03,
+      "n": 1210,
+      "roi": 0.10139796183355075,
+      "ci_lo": -0.005582909979715764
+    },
+    {
+      "market": "player_points_assists",
+      "strategy": "inj",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.0,
+      "n": 6163,
+      "roi": -0.00859124314983979,
+      "ci_lo": -0.034388847157586916
+    },
+    {
+      "market": "player_points_rebounds",
+      "strategy": "inj",
+      "source": NaN,
+      "devig": "multiplicative",
+      "tau": 0.04,
+      "n": 2546,
+      "roi": 0.015126061454043917,
+      "ci_lo": -0.023141123071866547
+    },
+    {
+      "market": "player_rebounds_assists",
+      "strategy": "stack",
+      "source": NaN,
+      "devig": "power",
+      "tau": 0.075,
+      "n": 943,
+      "roi": 0.10133886059558209,
+      "ci_lo": 0.03582055308733884
+    },
+    {
+      "market": "team_totals",
+      "strategy": "price",
+      "source": "pinnacle",
+      "devig": "multiplicative",
+      "tau": 0.0,
+      "n": 696,
+      "roi": 0.02253722439858057,
+      "ci_lo": -0.05183725968221636
+    }
+  ],
+  "frozen_at": "2026-10-26T16:31:54.347112+00:00"
+}

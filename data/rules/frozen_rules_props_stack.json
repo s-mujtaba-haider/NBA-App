@@ -1,0 +1,113 @@
+{
+  "window": "T60",
+  "dispersion": {
+    "PTS": [
+      "nb",
+      6.138202626424879
+    ],
+    "REB": [
+      "nb",
+      9.723279062748718
+    ],
+    "AST": [
+      "nb",
+      11.124033674812464
+    ],
+    "FG3M": [
+      "nb",
+      7.342746443025199
+    ],
+    "STL": [
+      "nb",
+      6.482874475351598
+    ],
+    "BLK": [
+      "nb",
+      5.030283343370913
+    ],
+    "TOV": [
+      "nb",
+      20.85671706445584
+    ],
+    "PRA": [
+      "nb",
+      8.76566154609255
+    ]
+  },
+  "rules": [
+    {
+      "window": "T60",
+      "market": "player_assists",
+      "devig": "multiplicative",
+      "tau": 0.01,
+      "ci_lo": -0.029133252209426263,
+      "roi": -0.007602426795852869,
+      "n": 9199
+    },
+    {
+      "window": "T60",
+      "market": "player_blocks",
+      "devig": "power",
+      "tau": 0.075,
+      "ci_lo": 0.025957138964119303,
+      "roi": 0.11950105237362194,
+      "n": 605
+    },
+    {
+      "window": "T60",
+      "market": "player_points",
+      "devig": "power",
+      "tau": 0.03,
+      "ci_lo": -0.02491235479935773,
+      "roi": -0.004653481770055643,
+      "n": 10315
+    },
+    {
+      "window": "T60",
+      "market": "player_points_rebounds_assists",
+      "devig": "power",
+      "tau": 0.03,
+      "ci_lo": -0.016437474741801964,
+      "roi": 0.007353865764387912,
+      "n": 6423
+    },
+    {
+      "window": "T60",
+      "market": "player_rebounds",
+      "devig": "multiplicative",
+      "tau": 0.05,
+      "ci_lo": 0.02866292104256365,
+      "roi": 0.05335049952627722,
+      "n": 6685
+    },
+    {
+      "window": "T60",
+      "market": "player_steals",
+      "devig": "power",
+      "tau": 0.1,
+      "ci_lo": 0.05117415409424774,
+      "roi": 0.15956957652998988,
+      "n": 431
+    },
+    {
+      "window": "T60",
+      "market": "player_threes",
+      "devig": "multiplicative",
+      "tau": 0.1,
+      "ci_lo": 0.10636558118937986,
+      "roi": 0.2176073201007209,
+      "n": 512
+    },
+    {
+      "window": "T60",
+      "market": "player_turnovers",
+      "devig": "multiplicative",
+      "tau": 0.0,
+      "ci_lo": -0.02468691838488969,
+      "roi": 0.006596513247903155,
+      "n": 4070
+    }
+  ],
+  "configs_tried": 128,
+  "frozen_at": "2026-10-26T06:21:52.266083+00:00"
+}

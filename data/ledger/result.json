@@ -1,0 +1,203 @@
+{
+ "option": "Option 1: Two-Season Test",
+ "rule": {
+  "seasons": 2,
+  "test_roi_guard": true
+ },
+ "winners": [
+  "h2h",
+  "player_blocks",
+  "player_rebounds",
+  "player_rebounds_assists",
+  "player_threes",
+  "totals"
+ ],
+ "count": 6,
+ "per_market": {
+  "h2h": {
+   "bets": 452,
+   "roi": 0.09073714654064513,
+   "ci_low": 0.0011375730519863902
+  },
+  "player_blocks": {
+   "bets": 487,
+   "roi": 0.12578605164984857,
+   "ci_low": 0.020447448109465832
+  },
+  "player_rebounds": {
+   "bets": 1948,
+   "roi": 0.0743843427432915,
+   "ci_low": 0.029316824985264396
+  },
+  "player_rebounds_assists": {
+   "bets": 1058,
+   "roi": 0.11378951329479815,
+   "ci_low": 0.05013822203294056
+  },
+  "player_threes": {
+   "bets": 674,
+   "roi": 0.17029985463578726,
+   "ci_low": 0.06544612984399713
+  },
+  "totals": {
+   "bets": 555,
+   "roi": 0.09909398390308499,
+   "ci_low": 0.019860161654912986
+  }
+ },
+ "season_2025_26": {
+  "bets": 2296,
+  "won": 1227,
+  "units": 202.75999797761182,
+  "roi": 0.08831010364878564,
+  "usd_at_100": 20275.999797761182,
+  "staked_at_100": 229600,
+  "months_profit": 8,
+  "months": 9,
+  "worst_drop_units": 17.469653959164816,
+  "bets_per_pick_day": 11.366336633663366,
+  "final_month_table": {
+   "2025-10": 16.45,
+   "2025-11": 54.71,
+   "2025-12": 24.86,
+   "2026-01": 7.06,
+   "2026-02": 29.23,
+   "2026-03": 66.26,
+   "2026-04": 3.22,
+   "2026-05": 1.07,
+   "2026-06": -0.1
+  }
+ },
+ "per_market_2025_26": {
+  "h2h": {
+   "bets": 139,
+   "units": 9.62799719000039,
+   "roi": 0.06926616683453518
+  },
+  "player_blocks": {
+   "bets": 175,
+   "units": 13.030226315092028,
+   "roi": 0.07445843608624016
+  },
+  "player_rebounds": {
+   "bets": 971,
+   "units": 69.81697093527222,
+   "roi": 0.0719021327860682
+  },
+  "player_rebounds_assists": {
+   "bets": 508,
+   "units": 33.86169916683171,
+   "roi": 0.06665688812368448
+  },
+  "player_threes": {
+   "bets": 319,
+   "units": 49.23248988062515,
+   "roi": 0.15433382407719484
+  },
+  "totals": {
+   "bets": 184,
+   "units": 27.190614489790306,
+   "roi": 0.14777507874886037
+  }
+ },
+ "firmness": {
+  "count_with_live_bets": 5,
+  "count_with_live_bets_at_pdf_date": 5,
+  "per_market_with_live": {
+   "player_blocks": {
+    "bets": 491,
+    "roi": 0.12735894104665813,
+    "ci_low": 0.02268829000426391
+   },
+   "player_rebounds": {
+    "bets": 1994,
+    "roi": 0.07776310833738549,
+    "ci_low": 0.03327666172606122
+   },
+   "player_rebounds_assists": {
+    "bets": 1084,
+    "roi": 0.11287535192598667,
+    "ci_low": 0.052278040933037874
+   },
+   "player_threes": {
+    "bets": 681,
+    "roi": 0.16972408520487609,
+    "ci_low": 0.06988927607432674
+   },
+   "totals": {
+    "bets": 579,
+    "roi": 0.10320783005717346,
+    "ci_low": 0.025696368022350785
+   }
+  },
+  "lost_with_live": [
+   "h2h"
+  ],
+  "gained_with_live": [],
+  "prices_1pct_worse": 5,
+  "prices_2pct_worse": 4,
+  "five_main_books": 3,
+  "lowest_of_20_ci_seeds": 6,
+  "remove_one_book": {
+   "betmgm": 4,
+   "betrivers": 5,
+   "draftkings": 5,
+   "espnbet": 5,
+   "fanatics": 6,
+   "fanduel": 5,
+   "hardrockbet": 5,
+   "williamhill_us": 5
+  },
+  "remove_one_book_still_5": 7
+ },
+ "live_2026_27": {
+  "bets": 130,
+  "units": 17.498578392954993,
+  "roi": 0.13460444917657688,
+  "last_slate": "2026-11-06",
+  "per_market": {
+   "h2h": {
+    "bets": 23,
+    "units": -1.46354182705707,
+    "roi": -0.0636322533503074,
+    "won": 14,
+    "lost": 9
+   },
+   "player_blocks": {
+    "bets": 4,
+    "units": 1.2754329004329004,
+    "roi": 0.3188582251082251,
+    "won": 3,
+    "lost": 1
+   },
+   "player_rebounds": {
+    "bets": 46,
+    "units": 10.158938360814808,
+    "roi": 0.22084648610466975,
+    "won": 29,
+    "lost": 17
+   },
+   "player_rebounds_assists": {
+    "bets": 26,
+    "units": 1.9675764218730976,
+    "roi": 0.07567601622588836,
+    "won": 14,
+    "lost": 12
+   },
+   "player_threes": {
+    "bets": 7,
+    "units": 0.7999999999999998,
+    "roi": 0.11428571428571425,
+    "won": 3,
+    "lost": 4
+   },
+   "totals": {
+    "bets": 24,
+    "units": 4.760172536891263,
+    "roi": 0.19834052237046929,
+    "won": 15,
+    "lost": 9
+   }
+  }
+ }
+}

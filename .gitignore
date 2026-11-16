@@ -1,0 +1,20 @@
+.env
+installer/app.env
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+web/dist/
+buildenv/
+build/
+dist/
+installer/Output/
+
+# runtime state (written by the app, not shipped)
+data/baseline.db
+data/license_private_key.pem
+data/live/
+data/raw/
+approvals/
+logs/
+*.lock

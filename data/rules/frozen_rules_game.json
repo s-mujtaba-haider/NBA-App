@@ -1,0 +1,124 @@
+{
+  "sigma": {
+    "spreads": 13.751316904207115,
+    "totals": 17.631827340829965
+  },
+  "window": "T30",
+  "min_n_discovery": 200,
+  "rules": [
+    {
+      "window": "AM9",
+      "market": "h2h",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "NOON",
+      "market": "h2h",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "T15",
+      "market": "h2h",
+      "source": "consensus",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "T180",
+      "market": "h2h",
+      "source": "consensus",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "T30",
+      "market": "h2h",
+      "source": "consensus",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "T60",
+      "market": "h2h",
+      "source": "consensus",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "NOON",
+      "market": "spreads",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "T15",
+      "market": "spreads",
+      "source": "pinnacle",
+      "devig": "multiplicative",
+      "tau": 0.0
+    },
+    {
+      "window": "T30",
+      "market": "spreads",
+      "source": "consensus",
+      "devig": "multiplicative",
+      "tau": 0.0
+    },
+    {
+      "window": "T60",
+      "market": "spreads",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "AM9",
+      "market": "totals",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "NOON",
+      "market": "totals",
+      "source": "pinnacle",
+      "devig": "multiplicative",
+      "tau": 0.0
+    },
+    {
+      "window": "T15",
+      "market": "totals",
+      "source": "pinnacle",
+      "devig": "power",
+      "tau": 0.0
+    },
+    {
+      "window": "T180",
+      "market": "totals",
+      "source": "pinnacle",
+      "devig": "multiplicative",
+      "tau": 0.0
+    },
+    {
+      "window": "T30",
+      "market": "totals",
+      "source": "pinnacle",
+      "devig": "multiplicative",
+      "tau": 0.0
+    },
+    {
+      "window": "T60",
+      "market": "totals",
+      "source": "pinnacle",
+      "devig": "multiplicative",
+      "tau": 0.0
+    }
+  ],
+  "configs_tried": 576,
+  "frozen_at": "2026-10-26T03:46:59.576851+00:00"
+}

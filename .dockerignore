@@ -1,0 +1,11 @@
+node_modules
+web/node_modules
+web/dist
+.env
+buildenv
+build
+dist
+.git
+data/live
+data/raw
+data/baseline.db
