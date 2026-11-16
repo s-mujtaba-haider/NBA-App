@@ -110,7 +110,7 @@ export function Board() {
 
 function NextWindow({ data }: { data: BoardT }) {
   const now = useNow()
-  const all = [data.noon, ...data.games.flatMap((g) => g.windows.map((w) => ({ ...w, game: g })))]
+  const all = [{ ...data.noon, window: 'NOON' }, ...data.games.flatMap((g) => g.windows.map((w) => ({ ...w, game: g })))]
   const seen = new Set<string>()
   const upcoming = all.filter((w) => new Date(w.at).getTime() > now).sort((a, b) => +new Date(a.at) - +new Date(b.at))
     .filter((w) => { const k = `${w.window}|${w.at}`; if (seen.has(k)) return false; seen.add(k); return true })
@@ -129,7 +129,7 @@ function NextWindow({ data }: { data: BoardT }) {
           <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-fog-2">
             {next ? (
               <>
-                <Badge tone="ember"><Dot tone="ember" pulse />{next.window === 'NOON' ? '12:00 ET' : next.window.replace('P', '').replace('G', '').replace('T', 'T-')}</Badge>
+                <Badge tone="ember"><Dot tone="ember" pulse />{next.window === 'NOON' ? '12:00 ET' : (next.window ?? '').replace('P', '').replace('G', '').replace('T', 'T-')}</Badge>
                 <span>{WINDOW_LABEL[next.window]}</span>
                 <span className="text-fog-4">·</span>
                 <span className="num text-fog-3">{timeET(next.at)} ET</span>

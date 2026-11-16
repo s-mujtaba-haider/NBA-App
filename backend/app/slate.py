@@ -81,7 +81,7 @@ def board(day: str | None = None) -> dict:
     noon = pd.Timestamp(f"{day} 12:00", tz=ET).tz_convert("UTC")
     noon_key = f"NOON|{day}"
     noon_st = tick_status.get(noon_key) or ("upcoming" if now < noon else "open" if now < noon + pd.Timedelta(minutes=10) else "closed")
-    return dict(day=day, now=now.isoformat(), games=games, noon=dict(key=noon_key, at=noon.isoformat(), status=noon_st, markets=["h2h"]),
+    return dict(day=day, now=now.isoformat(), games=games, noon=dict(key=noon_key, window="NOON", at=noon.isoformat(), status=noon_st, markets=["h2h"]),
                 picks=enrich(picks), days=nearby_days(day))
 
 
